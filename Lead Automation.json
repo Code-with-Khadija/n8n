@@ -137,7 +137,7 @@
     },
     {
       "parameters": {
-        "sendTo": "khadijanane@gmail.com",
+        "sendTo": "khadijagmail.com",
         "subject": "Form Lead Update",
         "emailType": "text",
         "message": "=Hey Khadija!\n\nThere is the new lead in the form as follows\n\nName:{{ $json.Name }}   \nService: {{ $json.Service }}\nTime: {{ $json.Time }}\n\nSource:{{ $workflow.id }}\n\nThanks,\nYour awesome workflow",
